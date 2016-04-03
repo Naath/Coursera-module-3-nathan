@@ -1,0 +1,111 @@
+body {
+	font-size: 16px;
+	color: #ed6464; /* red */
+	background-color: #9a8e8b;  /* grey */
+	font-family: 'Bitter';
+}
+
+h1 {
+  margin-bottom: 15px;
+  margin-top: 10px;
+  text-align: center;
+  color: white;
+  }
+ 
+.row {
+  box-sizing: border-box;
+   display: block;
+   margin: 15px;
+   padding: 15px;
+   background: white;
+   overflow: auto;
+   text-align: left;
+
+  } 
+
+  .submenu {
+    display: block;
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+/** HEADER **/
+#header-nav {
+	background-color: #fbd245;  /* yellow */
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h1 { /* Name Restaurant */
+font-family:'Monda';
+color: #69b4e4; /* blue */
+font-size: 1.6em;
+margin-top: 0;
+margin-bottom: 0;
+line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+color: #69b4e4;
+text-align: center;
+}
+
+#nav-list a:hover {
+	background: #ed6464; /* red */
+}
+
+#collapsable-nav {
+position: absolute;
+width: 100%;
+background-color: #fbd245;  
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {border: 1px solid #69b4e4; }/*blue */
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .menu-type {
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+
+  }
+}
+  .col-lg-1 {
+    padding: 15px;
+    margin: 15px;
+  }  
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu-type {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+  }
+}
+  .col-md-1 {
+    padding: 15px;
+}
+
+    /********** Small devices only **********/
+@media (max-width: 768px) {
+  .menu-type {
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+  }
+  .col-xs-1 {
+    padding: 15px;
+}
+
